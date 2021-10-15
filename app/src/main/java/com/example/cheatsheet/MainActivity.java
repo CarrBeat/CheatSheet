@@ -1,4 +1,4 @@
-package com.example.cheatsheet; //new
+package com.example.cheatsheet; //newPolina
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
