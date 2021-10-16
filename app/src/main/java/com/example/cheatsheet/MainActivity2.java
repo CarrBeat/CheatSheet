@@ -18,12 +18,14 @@ public class MainActivity2 extends AppCompatActivity {
 
         Bundle arguments = getIntent().getExtras();
 
+        /*
         User user;
         if(arguments!=null){
             user = (User) arguments.getSerializable(User.class.getSimpleName());
 
             textView.setText("Name: " + user.getText());
         }
+         */
         setContentView(textView);
     }
 }

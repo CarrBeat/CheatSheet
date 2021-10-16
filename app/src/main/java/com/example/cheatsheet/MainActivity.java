@@ -1,4 +1,4 @@
-package com.example.cheatsheet; //newPolina
+package com.example.cheatsheet; //newPolinaLast
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ListView countriesList = (ListView) findViewById(R.id.spaceList);
+        //ListView countriesList = (ListView) findViewById(R.id.spaceList);
 
         // получаем ресурс
         String[] countries = getResources().getStringArray(R.array.space);
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 android.R.layout.simple_list_item_1, countries);
 
         // устанавливаем для списка адаптер
-        countriesList.setAdapter(adapter);
+        //countriesList.setAdapter(adapter);
     }
     public void onClick(View v) {
 
